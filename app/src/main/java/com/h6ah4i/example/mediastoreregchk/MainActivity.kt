@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        setTitle("${getString(R.string.app_name)} - API Leves ${Build.VERSION.SDK_INT}")
+        setTitle("${getString(R.string.app_name)} - API Level ${Build.VERSION.SDK_INT}")
     }
 
     private fun collectArtistInfo(context: Context, artistName: String): String {
